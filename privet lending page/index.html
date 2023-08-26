@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<!-- three js -->
+<script src="http://threejs.org/build/three.min.js"></script>
+    <script src="http://threejs.org/examples/js/controls/OrbitControls.js"></script>
+  
+<script     src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js"
+      integrity="sha512-tjnAmVGiveGgWkDgt8h8oqmOl3cnmQkTNUIFK2BjMz0SliBCm9l0ecN1fHiOG2mATHSYm/miXNX6tE0/5uYKMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="node_modules/three/build/three.js"></script>
+        <title> Vivek Lending Page</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Vivek</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#tentang" class="nav__link">Image</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Hobbi</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h2 class="home__title">H! Bro i, am Vivek <br>Some<span class="home__title-color"> Information </span><br> About me</h2>
+
+                    <a href="https://linktr.ee/vivek_kumar_1854" class="button">Fllow</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://instagram.com/vivek_vishu_1854_?igshid=NGExMmI2YTkyZg==" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100048763367252&mibextid=ZbWKwL" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://github.com/Vive1854" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804
+                             6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 
+                             174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 
+                             462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835
+                              299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 
+                            29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948
+                             107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245
+                              326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835
+                               299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="./images/1000061408.jpg" />
+                        </g>
+                    </svg>
+                </div> 
+            </section>
+
+            <!--===== TENTANG =====-->
+            <section class="tentang section " id="tentang">
+                <h2 class="section-title">Image</h2>
+                <h3 id="jay">जय श्री कृष्णा राधे राधे  🙏</h3>
+                <div class="tentang__container bd-grid">
+                    <div class="tentang__img">
+                        <img src="./images/IMG_20230702_120227.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2 class="tentang__subtitle">Vivek kumar</h2>
+                        <h5>This photo you are seeing is Vrindavan, as soon as I tell you something, you must know once about Vrindavan, the city of Shri Krishna, it is a very good place.</h5>
+                      <!-- <a href="https://www.holidify.com/places/vrindavan/"><button id="button12">click her</button></a> -->
+                      <a href="https://www.holidify.com/places/vrindavan/" class="button">click Here</a>
+                        <!-- <p class="tentang__text">Saya adalah seorang yang suka dengan usaha dan ingin menjadi pengusaha sukses dan ingin menjadi lebih maju dengan usahan saya maka saya harus belajar juga dengan yang namanya proram.</p>            -->
+                    </div>                                   
+                </div>
+            </section>
+
+            <!-- ===== HOBI ===== -->
+          <section class="skills section" id="skills">
+                <h2 class="section-title">Hobbi</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Hobbi</h2>
+                        <p class="skills__text">Hello I am Vivek   Kumar i am belongs To  Banka Bihar i am Doing BCA from SHRI RAM COLLAGE Muzaffarnagar and i Want to Become a Website Designer in Future and i like to sing and Learn Something from someone  I want to do something in life, I will do whatever it takes for me, but I want to do it for the society and the country, I want to be like a Tata Ratna, I feel very happy when I learn something new.  I feel good about myself....</p>
+                      
+                        <div class="row">
+                            <div class="col">
+                               </section>
+                              <section id="hobi">
+                                   <canvas width="1536" height="200" style="display: block; width: -100px; height: 10px;  border-radius: 1rem"></canvas>
+                              </section>
+                            </div>
+                            <div class="col">
+                             <canvas id="canvas" width="100" height="100"></canvas>
+                          </div>
+                          </div>
+                        </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form" method="POST" name="google-sheet">
+                        <input type="text" placeholder="Name" class="contact__input" name="Name">
+                        <input type="mail" placeholder="Email" class="contact__input" name="Email">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input" name="Address"></textarea>
+                        <input type="button" value="Submit" class="contact__button button" name="Submit">
+                        
+                    </form>
+                </div>
+            </section>
+            <section>
+                
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">By Vivek kumar</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/profile.php?id=100048763367252&mibextid=ZbWKwL" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://instagram.com/vivek_vishu_1854_?igshid=NGExMmI2YTkyZg==" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/vi08362781?t=VdEF4nBWaDYdox9S_4xzlQ&s=09" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <a href="https://youtu.be/Rf1IN0i9Qw4"><p class="footer__copy">&#169; By vivek . All rigths reserved</p></a>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+        <!--===== MAIN JS =====-->
+        <!-- <script src="assets/js/main.js"></script> -->
+        <script>
+            /*===== MENU SHOW =====*/ 
+// const showMenu = (toggleId, navId) =>{
+//     const toggle = document.getElementById(toggleId),
+//     nav = document.getElementById(navId)
+
+//     if(toggle && nav){
+//         toggle.addEventListener('click', ()=>{
+//             nav.classList.toggle('show')
+//         })
+//     }
+// }
+// showMenu('nav-toggle','nav-menu')
+
+/*==================== REMOVE MENU MOBILE ====================*/
+// const navLink = document.querySelectorAll('.nav__link')
+
+// function linkAction(){
+//     const navMenu = document.getElementById('nav-menu')
+//     // When we click on each nav__link, we remove the show-menu class
+//     navMenu.classList.remove('show')
+// }
+// navLink.forEach(n => n.addEventListener('click', linkAction))
+
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+// const sections = document.querySelectorAll('section[id]')
+
+// function scrollActive(){
+//     const scrollY = window.pageYOffset
+
+//     sections.forEach(current =>{
+//         const sectionHeight = current.offsetHeight
+//         const sectionTop = current.offsetTop - 50;
+//         sectionId = current.getAttribute('id')
+
+//         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+//             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
+//         }else{
+//             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
+//         }
+//     })
+// }
+// window.addEventListener('scroll', scrollActive)
+
+// /*===== SCROLL REVEAL ANIMATION =====*/
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2000,
+//     delay: 200,
+// //     reset: true
+// });
+
+// ------------------------------New google sheet---------------------------
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxij_SDs_sruW-As-NHNmx_cqR9mwU1LaWnubvPHfOH6J-lrwdHGIBc0hSDlo_C2BmlLQ/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+     
+
+        </script>
+    </body>
+</html>
